@@ -1,21 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { createBottomTabNavigator } from "react-navigation-tabs";
+import { StyleSheet, View, Text } from "react-native";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello, SER 423! My name is Tanmay Shelar (tshelar). </Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+class App extends React.Component{
+  render(){
+    return <View style={styles.container}>
+    <Text>Hello!sdjflsdkhfkjlsdhfklhdsfklhdslgkhdfslkghdflkhglkdsjfghkjldsfhgkldhfglkhdfklgh</Text>
+    </View>;
+  }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'green',
-    alignItems: 'center',
+  container : {
+    flex:1,
+    backgroundColor:'cyan',
+    alignItems:'center',
     justifyContent: 'center',
-  },
-});
-
+  }
+})
+export default  App;
